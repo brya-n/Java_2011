@@ -10,10 +10,11 @@
 # On colliding with a sphere:
 #   Alpha channel of sphere --
 #   // this is simulating being drained
-#   If prime colour of sphere in the rgb colour channel of box < 255
+#   If prime colour of sphere in the rgb colour channel of box < 255 && rgb channel
 #      Prime colour channel of box ++
 #   Else
-#      Both the other colour channels --
+#      For each non-prime colour channel that is  > 0 
+#      --
 #
 #  Controls
 #  Q: Quit (or the button)
