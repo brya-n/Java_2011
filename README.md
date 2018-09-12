@@ -28,3 +28,6 @@
 #  Score = none
 #
 #  bray-n
+#
+#  Known 'features'
+#  It is possible to 'capture' a sphere and drain it of colour, move away rapidly to leave
